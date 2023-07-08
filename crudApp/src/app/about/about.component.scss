@@ -1,0 +1,48 @@
+#about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .profile {
+    margin-right: 20px;
+  }
+  
+  .profile img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .bio {
+    max-width: 600px;
+  }
+  
+  .bio h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .bio p {
+    margin-bottom: 20px;
+  }
+  
+  .bio a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f2f2f2;
+    color: #333;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-right: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
